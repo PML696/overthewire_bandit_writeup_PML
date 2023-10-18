@@ -3,6 +3,7 @@
 #### Level 0
 ```
 It was a great challenge to find and learn about ssh and how to access it etc. But it was fun. Now moving forward!
+It was related to logging in by the way.
 
 ```
 
@@ -39,4 +40,20 @@ the password was lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
 ```
 #### Level 5 -> Level 6
 ```
+so i continued with the same procedure i.e. find inhere but then i got many files
+so now i had to find that one file which satisfied the following characteristics
+human-readable
+1033 bytes in size
+not executable
+ so I referred chatgpt to give me a code to filter out everything and get me that one file which satisfied the following characteristics
+the code was
+find inhere -type f -size 1033c -not -executable -exec file {} \; | grep "text"
+then i got the unique required file that was inhere/maybehere07/.file2
+then i just accessed the data within that file with cat inhere/maybehere07/.file2
+and i got the password P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+```
+#### Level 6 -> Level 7
+```
+
+
 
