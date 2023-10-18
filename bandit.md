@@ -19,6 +19,8 @@ Now i tried cat ./- after i looked it up how to represent a library since it can
 so the password is rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
 ```
 #### Level 2 -> Level 3
+```didnt get it becasue i started with il and then home directory opened so couldnt find spaces in this filename there so then I realised i had to exit and then again i logged in and then i tried cat spaces\ in\ this\ filename it worked
+password: aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
 ```
-
+#### Level 3 -> Level 4
 ```
