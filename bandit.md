@@ -32,4 +32,11 @@ the password is 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
 ```
 #### Level 4 -> Level 5
 ```
+first tried the same thing
+I put find in here
+ then i got 9 files like inhere/-file01 and then i started acessing them one by one and got random characters in each and then at the last i got the password at inhere/-file07
+the password was lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+```
+#### Level 5 -> Level 6
+```
 
