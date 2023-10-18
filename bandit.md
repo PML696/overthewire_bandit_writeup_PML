@@ -55,6 +55,13 @@ and i got the password P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
 ```
 #### Level 6 -> Level 7
 ```
+So now what i did was i got a code by referring to chatgpt based on the characteristics given in the question i.e. find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+and when i put this i got a file /var/lib/dpkg/info/bandit7.password
+so then i accessed this file through cat /var/lib/dpkg/info/bandit7.password
+and i got the password as z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+```
+#### Level 7 -> Level 8
+```
 
 
 
