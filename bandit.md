@@ -25,3 +25,11 @@ password: aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
 ```
 #### Level 3 -> Level 4
 ```
+tried find cat inhere but didnt work
+so next tried find inhere
+got the hidden directory which was inhere/.hidden
+the password is 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+```
+#### Level 4 -> Level 5
+```
+
