@@ -64,24 +64,20 @@ find inhere
 
 #### Level 5 -> Level 6
 
-so i continued with the same procedure i.e. find inhere but then i got many files
+So i continued with the same procedure i.e. find inhere but then i got many files
 so now i had to find that one file which satisfied the following characteristics
 human-readable
 1033 bytes in size
 not executable
- so I referred chatgpt to give me a code to filter out everything and get me that one file which satisfied the following characteristics
-the code was find /path/to/directory -type f -size 1033c -not -executable -exec file {} \; | grep "text"
-here i just had to replace /path/to/directory with inhere so the final code is given below
-find inhere -type f -size 1033c -not -executable -exec file {} \; | grep "text"
-then i got the unique required file that was inhere/maybehere07/.file2
-then i just accessed the data within that file with cat inhere/maybehere07/.file2
-and i got the password is P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+I looked up on google the function of find and how to use or write a command that helps in identifying the above properties. Thus i put the codes given below. And i got the password P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
 Code used is
 ```
 find inhere
 find . -type f -size 1033c ! -executable -exec file {} \;
 $ cat inhere/maybehere07/.file2
 ```
+![Screenshot from 2023-10-21 01-42-47](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/a7665031-ff69-4353-97f8-d7ee8b04c506)
+
 
 #### Level 6 -> Level 7
 
