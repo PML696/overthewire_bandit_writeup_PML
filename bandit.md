@@ -81,11 +81,13 @@ $ cat inhere/maybehere07/.file2
 
 #### Level 6 -> Level 7
 
-So now what i did was i got a code by referring to chatgpt based on the characteristics given in the question i.e. find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
-and when i put this i got a file /var/lib/dpkg/info/bandit7.password
-so then i accessed this file through cat /var/lib/dpkg/info/bandit7.password
-and i got the password as z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
-
+Here I did the same thing as before just making some minute changes in my code according to the characteristics given. The codes are given below. I got the password as z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+Codes used:
+```
+find / -user bandit7 -group bandit6 -size 33c -type f 2>/dev/null
+cat /var/lib/dpkg/info/bandit7.password
+```
+![Screenshot from 2023-10-21 01-57-56](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/1bff8d37-b4e4-45fd-ae6f-3aaba204cdd4)
 
 #### Level 7 -> Level 8
 
