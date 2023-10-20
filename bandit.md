@@ -5,7 +5,7 @@
 
 It was a great challenge to find and learn about ssh and how to access it etc. It was fun. Now moving forward!
 It was related to logging in by the way.
-
+![Screenshot from 2023-10-20 23-38-00](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/c7d3a993-88c6-4c0c-8cbc-965161373488)
 
 #### Level 0 -> Level 1
 
@@ -16,6 +16,7 @@ Code used
 ```
 cat readme
 ```
+![Screenshot from 2023-10-20 23-40-56](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/000dce65-347e-4718-aedd-9c1beaa9cade)
 
 #### Level 1 -> Level 2
 
@@ -25,7 +26,9 @@ so the password is rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
 Code used is
 ```
 cat ./-
+
 ```
+![Screenshot from 2023-10-20 23-44-53](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/95de76c3-bb8d-4192-b1b7-2349040362ee)
 
 #### Level 2 -> Level 3
 
