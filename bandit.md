@@ -69,7 +69,7 @@ so now i had to find that one file which satisfied the following characteristics
 human-readable
 1033 bytes in size
 not executable
-I looked up on google the function of find and how to use or write a command that helps in identifying the above properties. Thus i put the codes given below. And i got the password P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+I looked up on google the function of find and how to use or write a command that helps in identifying the above properties. Thus I put the codes given below. And i got the password P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
 Code used is
 ```
 find inhere
@@ -81,7 +81,8 @@ $ cat inhere/maybehere07/.file2
 
 #### Level 6 -> Level 7
 
-Here I did the same thing as before just making some minute changes in my code according to the characteristics given. The codes are given below. I got the password as z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+Here I did the same thing as before just making some minute changes in my code according to the characteristics given. Although I committed many errors while forming the code in between. 
+The codes are given below. I got the password as z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
 Codes used:
 ```
 find / -user bandit7 -group bandit6 -size 33c -type f 2>/dev/null
