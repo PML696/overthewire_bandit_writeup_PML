@@ -109,17 +109,24 @@ cat data.txt | sort | uniq -u
 ```
 ![Screenshot from 2023-10-21 02-47-06](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/6b1e0938-7909-48d6-975d-2243ae8752d4)
 
-#### Level 9 -> Level 10Here I had to first filter out  the special characters and get just the string i.e. text passwords. So I used the command cat data.txt | strings | sort | uniq -u. But this didn't work. Then I looked up how to filter out filter out random unreadable characters. Then after some understanding I used the command grep data.txt | strings. But still didnt work. Then I used strings data.txt | grep. Then I noticed the small detail that "preceded by several ‘=’ characters.". Then i used the code given below and i got the password as G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+#### Level 9 -> Level 10
+
+Here I had to first filter out  the special characters and get just the string i.e. text passwords. So I used the command cat data.txt | strings | sort | uniq -u. But this didn't work. Then I looked up how to filter out filter out random unreadable characters. Then after some understanding I used the command grep data.txt | strings. But still didnt work. Then I used strings data.txt | grep. Then I noticed the small detail that "preceded by several ‘=’ characters.". Then i used the code given below and i got the password as G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
 Code used:
 ```
 strings data.txt | grep ===
 ```
-
-
-
-
-
 ![Screenshot from 2023-10-21 03-17-49](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/5441e9fd-96c4-4792-8a1b-19076e6bd8ea)
+
+#### Level 10 -> Level 11
+
+Here i just had to decode the password i get from putting the command cat data.txt.  So then I wrote cat data.txt | base64 , but it didn't decode. So then I looked up how to decode then thus i got the password 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM by using the following code
+```
+cat data.txt | base64 -d
+```
+![Screenshot from 2023-10-21 03-47-32](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/7363c9b0-5a53-4c50-beb7-b11c96488b4d)
+
+#### Level 11 -> Level 12
 
 
 
