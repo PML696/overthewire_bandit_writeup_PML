@@ -54,11 +54,13 @@ cat inhere/.hidden
 
 #### Level 4 -> Level 5
 
-first tried the same thing
-I put find in here
- then i got 9 files like inhere/-file01 and then i started acessing them one by one and got random characters in each and then at the last i got the password at inhere/-file07
+First tried the same thing. I put find in here, then i got 9 files like inhere/-file01 and then I started acessing them one by one and got random characters in each and then at the last I got the password at inhere/-file07
 the password was lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
-
+The code used is
+```
+find inhere
+```
+![Screenshot from 2023-10-21 00-16-48](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/a854d62b-bfd7-44dd-88a1-7652cfa3f10b)
 
 #### Level 5 -> Level 6
 
