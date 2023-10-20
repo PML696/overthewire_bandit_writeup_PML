@@ -32,17 +32,25 @@ cat ./-
 
 #### Level 2 -> Level 3
 
-Didnt get it becasue i started with il and then home directory opened so couldnt find spaces in this filename there so then I realised i had to exit and then again i logged in and then i tried cat spaces\ in\ this\ filename it worked
+Didnt get it becasue I started with il and then home directory opened so couldnt find spaces in this filename there so then I realised I had to exit and then again I logged in and then I tried cat spaces\ in\ this\ filename it worked.
+The mistake happened because I used misinformation from google.
 password: aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
-
+Code used is:
+```
+cat spaces\ in\ this\ filename
+```
+![Screenshot from 2023-10-20 23-51-22](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/3612a8af-e4cf-4ecb-b8ab-5fbcee7c83e5)
 
 #### Level 3 -> Level 4
 
-tried find cat inhere but didnt work
-so next tried find inhere
-got the hidden directory which was inhere/.hidden
-the password is 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
-
+Tried find cat inhere but it didnt work. So next tried find inhere. Got the hidden directory which was inhere/.hidden. This i looked it up on google.
+The password is 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+Code used :
+```
+find inhere
+cat inhere/.hidden
+```
+![Screenshot from 2023-10-20 23-56-13](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/d3c731eb-2bdb-4912-a16d-be448eb3fa63)
 
 #### Level 4 -> Level 5
 
