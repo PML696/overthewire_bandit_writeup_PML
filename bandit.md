@@ -101,6 +101,7 @@ grep millionth data.txt
 ![Screenshot from 2023-10-21 02-19-33](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/a06025aa-3b22-465f-ac73-faede2852877)
 
 #### Level 8 -> Level 9
+
 This was more confusing than the other levels. I started using the commands according to the given commands that would be used. For example I used uniq data.txt, uniq -u data.txt, sort data.txt, etc nothing worked. Then after referring to the manual and looking up the proper functtions of the given command at last i put the command given below and got the password EN632PlfYiZbn3PhVK3XOGSlNInNE00t
 Code used:
 ```
@@ -108,7 +109,13 @@ cat data.txt | sort | uniq -u
 ```
 ![Screenshot from 2023-10-21 02-47-06](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/6b1e0938-7909-48d6-975d-2243ae8752d4)
 
-#### Level 9 -> Level 10
+#### Level 9 -> Level 10Here I had to first filter out  the special characters and get just the string i.e. text passwords. So I used the command cat data.txt | strings | sort | uniq -u. But this didn't work. Then I looked up how to filter out filter out random unreadable characters. Then after some understanding I used the command grep data.txt | strings. But still didnt work. Then I used strings data.txt | grep. Then I noticed the small detail that "preceded by several ‘=’ characters.". Then i used the code given below and i got the password as G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+Code used:
+```
+strings data.txt | grep ===
+```
+![Screenshot from 2023-10-20 23-40-32](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/9083bee7-526c-4030-a7c2-55cbb424f21e)
+
 
 
 
