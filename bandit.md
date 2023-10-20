@@ -91,6 +91,17 @@ cat /var/lib/dpkg/info/bandit7.password
 
 #### Level 7 -> Level 8
 
+Here it was a bit confusing. I first looked up the functions of the commands given in the questions. I tried grep -millionth -data.txt bu this didnt work. So next i tried reading the data.txt file directly through the command cat data.txt but then I got millions of password. And then finally i used grep millionth data.txt.
+Password:TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+Code used:
+```
+grep millionth data.txt
+```
+![Screenshot from 2023-10-21 02-19-33](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/a06025aa-3b22-465f-ac73-faede2852877)
+
+#### Level 8 -> Level 9
+
+
 
 
 
