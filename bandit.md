@@ -75,8 +75,13 @@ here i just had to replace /path/to/directory with inhere so the final code is g
 find inhere -type f -size 1033c -not -executable -exec file {} \; | grep "text"
 then i got the unique required file that was inhere/maybehere07/.file2
 then i just accessed the data within that file with cat inhere/maybehere07/.file2
-and i got the password P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
-
+and i got the password is P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+Code used is
+```
+find inhere
+find . -type f -size 1033c ! -executable -exec file {} \;
+$ cat inhere/maybehere07/.file2
+```
 
 #### Level 6 -> Level 7
 
