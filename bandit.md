@@ -114,11 +114,12 @@ Code used:
 ```
 strings data.txt | grep ===
 ```
-![Screenshot from 2023-10-21 03-17-49](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/edd9a75e-5c5d-4da6-999e-623193bd047b)
 
 
 
 
+
+![Screenshot from 2023-10-21 03-17-49](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/5441e9fd-96c4-4792-8a1b-19076e6bd8ea)
 
 
 
