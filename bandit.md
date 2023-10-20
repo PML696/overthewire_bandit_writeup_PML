@@ -101,6 +101,16 @@ grep millionth data.txt
 ![Screenshot from 2023-10-21 02-19-33](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/a06025aa-3b22-465f-ac73-faede2852877)
 
 #### Level 8 -> Level 9
+This was more confusing than the other levels. I started using the commands according to the given commands that would be used. For example I used uniq data.txt, uniq -u data.txt, sort data.txt, etc nothing worked. Then after referring to the manual and looking up the proper functtions of the given command at last i put the command given below and got the password EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+Code used:
+```
+cat data.txt | sort | uniq -u
+```
+![Screenshot from 2023-10-21 02-47-06](https://github.com/PML696/overthewire_bandit_writeup_PML/assets/138509535/6b1e0938-7909-48d6-975d-2243ae8752d4)
+
+#### Level 9 -> Level 10
+
+
 
 
 
