@@ -28,23 +28,23 @@ password: aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
 
 
 #### Level 3 -> Level 4
-```
+
 tried find cat inhere but didnt work
 so next tried find inhere
 got the hidden directory which was inhere/.hidden
 the password is 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
-```
+
 
 #### Level 4 -> Level 5
-```
+
 first tried the same thing
 I put find in here
  then i got 9 files like inhere/-file01 and then i started acessing them one by one and got random characters in each and then at the last i got the password at inhere/-file07
 the password was lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
-```
+
 
 #### Level 5 -> Level 6
-```
+
 so i continued with the same procedure i.e. find inhere but then i got many files
 so now i had to find that one file which satisfied the following characteristics
 human-readable
@@ -57,18 +57,18 @@ find inhere -type f -size 1033c -not -executable -exec file {} \; | grep "text"
 then i got the unique required file that was inhere/maybehere07/.file2
 then i just accessed the data within that file with cat inhere/maybehere07/.file2
 and i got the password P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
-```
+
 
 #### Level 6 -> Level 7
-```
+
 So now what i did was i got a code by referring to chatgpt based on the characteristics given in the question i.e. find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
 and when i put this i got a file /var/lib/dpkg/info/bandit7.password
 so then i accessed this file through cat /var/lib/dpkg/info/bandit7.password
 and i got the password as z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
-```
+
 
 #### Level 7 -> Level 8
-```
+
 
 
 
